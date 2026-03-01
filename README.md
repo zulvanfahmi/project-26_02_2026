@@ -145,15 +145,13 @@ Token didapat dari endpoint login.
 
 ### 🔐 Dummy Accounts
 
-
-**Admin**
+- **Admin**
 
 username: edo_user
 
 password: password123
 
-
-**Regular User**
+- **Regular User**
 
 username: andi_user
 
