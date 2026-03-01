@@ -144,7 +144,7 @@ public class TicketController {
                         null));
     }
 
-    @PreAuthorize("hasAnyRole('ADMIN','USER')")
+    @PreAuthorize("hasAnyRole('ADMIN')")
     @DeleteMapping("/ticket/{idTicket}/delete")
     public ResponseEntity<ApiResponseWrapper<String>> deleteTicket(
             @PathVariable Long idTicket) {
